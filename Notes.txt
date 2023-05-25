@@ -1,0 +1,8 @@
+step 1:npm init -y//creates package.json
+step 2:npm i express//create a server
+step 3: npm i nodemon
+change in package.json:
+  "scripts": {
+   "start": "nodemon App.js"
+  },
+step4:npm i mongoose//package for mongodb  
